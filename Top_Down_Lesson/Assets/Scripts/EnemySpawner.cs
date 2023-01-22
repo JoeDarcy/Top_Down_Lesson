@@ -26,7 +26,7 @@ public class EnemySpawner : MonoBehaviour
         if (timer <= 0)
         {
             // Create a random spawn position
-            spawnPosition = new Vector2(Random.Range(10, 20), Random.Range(6, 10));
+            spawnPosition = transform.position = Random.insideUnitCircle * 12;
 
             // Instantiate enemy prefabs
             enemyInstance_1 = Instantiate(enemyPrefab_1, spawnPosition, Quaternion.identity);
