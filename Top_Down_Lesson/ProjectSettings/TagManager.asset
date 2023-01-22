@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Right_Fire_Point
+  - Left_Fire_Point
   layers:
   - Default
   - TransparentFX
