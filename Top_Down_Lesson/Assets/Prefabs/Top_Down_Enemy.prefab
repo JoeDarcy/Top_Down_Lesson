@@ -9758,6 +9758,7 @@ GameObject:
   - component: {fileID: 6397010263144044858}
   - component: {fileID: 6397010263144044853}
   - component: {fileID: 6397010263144044852}
+  - component: {fileID: 6561388231285438688}
   m_Layer: 0
   m_Name: Top_Down_Enemy
   m_TagString: Untagged
@@ -9896,6 +9897,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 3
+--- !u!114 &6561388231285438688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397010263144044857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e44819ef7ba04df7bc33410a95861d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPower: 1
 --- !u!1 &6781159901997823017
 GameObject:
   m_ObjectHideFlags: 0

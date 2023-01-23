@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Right_Fire_Point
   - Left_Fire_Point
+  - Health_Pickup
   layers:
   - Default
   - TransparentFX

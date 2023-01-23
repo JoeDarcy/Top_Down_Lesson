@@ -26,8 +26,8 @@ public class EnemySpawner : MonoBehaviour
         if (timer <= 0)
         {
             // Create a random spawn position
-            spawnPosition = transform.position = Random.insideUnitCircle * 12;
-
+            spawnPosition = transform.position = Random.insideUnitCircle.normalized * 12;
+           
             // Instantiate enemy prefabs
             enemyInstance_1 = Instantiate(enemyPrefab_1, spawnPosition, Quaternion.identity);
 
