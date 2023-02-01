@@ -24,7 +24,6 @@ public class Shooting : MonoBehaviour
     private GameObject muzzleFlashInstanceLeft;
     private Rigidbody2D bulletRb;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +37,7 @@ public class Shooting : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();
+	        Shoot();
         }
     }
 
@@ -74,7 +73,7 @@ public class Shooting : MonoBehaviour
 
     private void Shoot()
     {
-        // Fire right bullet
+	    // Fire right bullet
         muzzleFlashInstanceRight = Instantiate(muzzleFlashPrefab, rightFirePoint.position, rightFirePoint.rotation);
         Destroy(muzzleFlashInstanceRight, 0.02f);
         bulletInstanceRight = Instantiate(bulletPrefab, rightFirePoint.position, rightFirePoint.rotation);
